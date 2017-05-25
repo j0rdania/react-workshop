@@ -1,10 +1,10 @@
 import React, {Component} from 'react'
-import QAndA from './QAndA'
+import Answer from './Question'
+import Answer from './Answer'
 
-class QAndAs extends Component {
+class QAndA extends Component {
   render(){
     return(<div>
-      this.props.questionsAndAnswers.foreach
       <Question text=this.props.questionText/>
       <Answer text=this.props.answerText/>
       </div>)
